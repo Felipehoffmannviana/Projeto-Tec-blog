@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&display=swap');
+
+* {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 150px;
+}
+
+
+
+.cabeçalho {
+    position: absolute;
+    background-color: rgb(241, 226, 3);
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+h1 {
+    position: absolute;
+    font-family: Josefin Sans, sans-serif;
+    font-size: 5rem;
+    bottom: 5px;
+    letter-spacing: 10px;
+}
+
+.blog {
+    color: white;
+}
+
+.menu {
+    position: absolute;
+    top: 110px;
+}
+
+.menu-link {
+    color: black;
+    font-family: Josefin Sans, sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    display: inline;
+    margin: 20px;
+    padding: 20px;
+}
+
+a:link, :visited {
+    color: white;
+ 
+}
+
+a:hover{
+    color: rgb(7, 7, 7);
+}
+
+section {
+    position: absolute;
+    width: 100%;
+    height: 1500px;
+}
+
+.primeira-postagem {
+    position: absolute;
+    left: 200px;
+    top: 1px;
+    font-family: Josefin Sans, sans-serif;
+    font-size: 20px;
+
+}
+
+.titulo-da-primeira-postagem {
+        color: yellow;
+        font-family: Baloo Chettan, sans-serif;
+        letter-spacing: 3px;
+}
+
+.segunda-postagem {
+    position: absolute;
+    left: 200px;
+    top: 700px;
+    font-family: Josefin Sans, sans-serif;
+    font-size: 20px;
+}
+
+.titulo-da-segunda-postagem {
+    color: yellow;
+    font-family: Baloo Chettan, sans-serif;
+    letter-spacing: 3px;
+}
+
+.conteudo-lateral {
+    position: fixed;
+    top: 200px;
+    right: 70px;
+    width: 300px;
+    height: 600px;
+}
+
+.link-lateral{
+    color: yellow;
+    margin: 10px;
+}
+
+.lista-lateral {
+    list-style: none;
+    margin: 10px;
+}
+
+.recentes {
+    background: rgb(255, 230, 230);
+    padding: 5px;
+    font-family: Josefin Sans, sans-serif;
+    font-weight: 700;
+}
+
+.amarelo {
+    color: yellow;
+}
+
+.titulos-lateral {
+    display: flex;
+    justify-content: center;
+    font-family: Josefin Sans, sans-serif;
+}
+
+.rodape {
+    position: absolute;
+    bottom: 10px;
+    left: 400px;
+    color: blue;
+} 
+
+
+
+
